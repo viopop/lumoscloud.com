@@ -1,4 +1,5 @@
 @import "colors";
+@import "functions";
 @import "bigvideo";
 
 header.page {
@@ -19,6 +20,12 @@ header.page {
       width: 48px; height: 48px; position: absolute; left: calc(50% - 24px); bottom: 20px;
       .fa { font-size: 48px; opacity: 0.4; }
       &:hover .fa { opacity: 0.8; }
+    }
+    .fade-in {
+      opacity: 0; visibility: hidden;
+      &.fade-in-fast { @include transition(opacity 0.3s linear); }
+      &.fade-in-slow { @include transition(opacity 1s linear); }
+      &.fade-in-now { opacity: 1; visibility: visible; }
     }
   }
 }
