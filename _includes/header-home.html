@@ -35,6 +35,7 @@
     var resizeHeader = function() {
       $('.header-home').css('height', $(window).height());
       $('.header-home .big-video-wrap').css('height', $(window).height()-80);
+      $('.header-home h1').css('margin-top', Math.min($(window).height()/3, 200));
     };
     resizeHeader();
     $(window).resize(resizeHeader);
