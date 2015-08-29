@@ -1,0 +1,40 @@
+<div class="header-home">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="logo">
+          {% include 'includes/logo' %}
+        </div>
+        <a href="#big-slide-panel" class="big-slide-link no-underline visible-xs-block">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="col-sm-8 hidden-xs">
+        {% include 'includes/nav' %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>{{meta.slogan | markdown}}</h1>
+      </div>
+    </div>
+  </div>
+  <div class="big-video"></div>
+  <a class="jump-down no-underline">
+    <i class="fa fa-chevron-circle-down" data-scroll-to="#about" data-scroll-offset="-90"></i>
+  </a>
+</div>
+<script type="text/javascript">
+  $(function() {
+    var resizeHeader = function() {
+      $('.header-home').css('height', $(window).height());
+      $('.header-home .big-video').css('height', $(window).height()-80);
+    };
+    resizeHeader();
+    $(window).resize(resizeHeader);
+
+    var BV = new $.BigVideo({container:$(".big-video")});
+    BV.init();
+    BV.show('/assets/videos/22375808.mp4',{ambient:true});
+  });
+</script>

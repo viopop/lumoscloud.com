@@ -1,0 +1,25 @@
+@import "base";
+@import "bigvideo";
+
+header.page {
+  background: none;
+  .header-home {
+    color: white; background-color: $dark-gray; margin-bottom: 20px; position: relative;
+    .container { position: relative; z-index: 1; }
+    .big-video { position: absolute; margin-top: 80px; top: 0; left: 0; right: 0; z-index: 0; overflow: hidden; }
+    a {
+      color: white;
+      &:hover { color: darken(white, 10%); border-bottom: 1px dotted darken(white, 10%); }
+      &.no-underline {
+        border-bottom: 0;
+        &:hover { border-bottom: 0; }
+      }
+    }
+    h1 { font-size: 44px; margin-top: 110px; text-align: center; color: white; }
+    .jump-down {
+      width: 48px; height: 48px; position: absolute; left: calc(50% - 24px); bottom: 20px;
+      .fa { font-size: 48px; opacity: 0.4; }
+      &:hover .fa { opacity: 0.8; }
+    }
+  }
+}
