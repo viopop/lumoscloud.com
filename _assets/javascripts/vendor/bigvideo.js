@@ -418,6 +418,6 @@
 		};
 
 		return BigVideo;
-		
+
 	};
 });

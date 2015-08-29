@@ -1,11 +1,47 @@
 {% capture content %}
   <a id="content"></a>
-  <div class="container content">
-    <div class="row">
-      <section class="col-xs-12">
-        {{body}}
-      </section>
+  <div class="content">
+    <div class="container">
+      <div class="row">
+        <section class="col-xs-12">
+          {{body}}
+        </section>
+      </div>
     </div>
+    {% if meta['display_subpages'] %}
+      {% for page in pages %}
+        {% if page.meta['background'] == 'image' %}
+          {% assign background_image = page.assets | where:"meta.background","true" | first %}
+          <div class="subpage background-image" style="background-image: url('{{background_image.url}}')">
+        {% elsif page.meta['banner'] ==  'primary' %}
+          <div class="subpage banner-primary">
+        {% else %}
+          <div class="subpage">
+        {% endif %}
+          <div class="container">
+            {% if page.body != "" %}
+              <div class="row">
+                <section class="col-xs-12">
+                  {{page.body}}
+                </section>
+              </div>
+            {% endif %}
+            {% if page.pages %}
+              <div class="row">
+                {% for subpage in page.pages %}
+                  <section class="text-center {{subpage.meta['column_class'] | fallback: page.meta['subpage_column_class'] | fallback:'col-sm-4'}}">
+                    {% if subpage.meta['icon'] %}
+                      <i class="subpage-icon fa fa-{{subpage.meta['icon']}}"></i>
+                    {% endif %}
+                    {{subpage.body}}
+                  </section>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    {% endif %}
   </div>
 {% endcapture %}
 {% include 'layouts/default' %}

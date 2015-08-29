@@ -2,6 +2,8 @@
 @import "functions";
 @import "bigvideo";
 
+blockquote { margin-bottom: 0; border-bottom: 0; padding-bottom: 0; }
+
 header.page {
   background: none; margin-bottom: 40px;
   .header-home {
@@ -15,7 +17,7 @@ header.page {
       color: white;
       &:hover { color: darken(white, 10%); border-bottom: 1px dotted darken(white, 10%); border-bottom: 0; }
     }
-    h1 { font-size: 44px; margin-top: 110px; text-align: center; color: white; }
+    h1 { font-size: 44px; margin-top: 110px; color: white; }
     .jump-down {
       width: 48px; height: 48px; position: absolute; left: calc(50% - 24px); bottom: 20px;
       .fa { font-size: 48px; opacity: 0.4; }

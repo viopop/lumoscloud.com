@@ -28,9 +28,12 @@
 </div>
 <script type="text/javascript">
   $(function() {
-    var BV = new $.BigVideo({container:$(".big-video")});
+    var BV = new $.BigVideo({
+      container: $(".big-video"),
+      doLoop: true
+    });
     BV.init();
-    BV.show('/assets/videos/22375808.mp4',{ambient:true});
+    BV.show('/assets/videos/22375808.mp4', { ambient: true });
 
     var resizeHeader = function() {
       $('.header-home').css('height', $(window).height());
