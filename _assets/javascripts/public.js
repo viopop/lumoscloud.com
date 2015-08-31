@@ -6,7 +6,27 @@ $(function() {
     menu: "#big-slide-panel",
     push: ".big-slide-push",
     side: "right",
-    easyClose: true});
+    easyClose: true
+  });
+
+  $(".big-video").each(function() {
+    var BV = new $.BigVideo({
+      container: $(this),
+      doLoop: true
+    });
+    BV.init();
+    BV.show($(".big-video").data('href'), { ambient: true });
+  });
+
+  L.mapbox.accessToken = 'pk.eyJ1IjoibHVtb3NjbG91ZCIsImEiOiIzNWEzYTkwOGRmZGY2ZDI5NzM5ODc4NWNmMWNhOWJkZCJ9.f4TzhaH4GvOM6673C2nnTw';
+  $('.mapbox').each(function() {
+    var map = L.mapbox.map(this, $(this).data("map-id"));
+    if ($(this).data("show-popup")) {
+      map.featureLayer.on('ready', function() {
+        map.featureLayer.getLayers()[0].openPopup();
+      });
+    }
+  });
 });
 
 $(document).on("click", "[data-scroll-to]", function(e) {

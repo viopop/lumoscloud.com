@@ -10,11 +10,12 @@
     </div>
     {% if meta['display_subpages'] %}
       {% for page in pages %}
+        {% assign text_color = page.meta['text_color'] | fallback:'black' %}
         {% if page.meta['background'] == 'image' %}
           {% assign background_image = page.assets | where:"meta.background","true" | first %}
-          <div class="subpage background-image" style="background-image: url('{{background_image.url}}')">
+          <div class="subpage background-image text-{{text_color}}" style="background-image: url('{{background_image.url}}')">
         {% elsif page.meta['banner'] ==  'primary' %}
-          <div class="subpage banner-primary">
+          <div class="subpage banner-primary text-{{text_color}}">
         {% else %}
           <div class="subpage">
         {% endif %}
@@ -29,12 +30,12 @@
             {% if page.pages %}
               <div class="row">
                 {% for subpage in page.pages %}
-                  <section class="text-center {{subpage.meta['column_class'] | fallback: page.meta['subpage_column_class'] | fallback:'col-sm-4'}}">
+                  <div class="text-{{subpage.meta['text_align'] | fallback:'center'}} {{subpage.meta['column_class'] | fallback: page.meta['subpage_column_class'] | fallback:'col-sm-4'}}">
                     {% if subpage.meta['icon'] %}
                       <i class="subpage-icon fa fa-{{subpage.meta['icon']}}"></i>
                     {% endif %}
                     {{subpage.body}}
-                  </section>
+                  </div>
                 {% endfor %}
               </div>
             {% endif %}

@@ -1,6 +1,6 @@
 <div class="header-home">
   <div class="big-video-wrap">
-    <div class="big-video"></div>
+    <div class="big-video" data-href="/assets/videos/22375808.mp4"></div>
   </div>
   <div class="container">
     <div class="row">
@@ -28,13 +28,6 @@
 </div>
 <script type="text/javascript">
   $(function() {
-    var BV = new $.BigVideo({
-      container: $(".big-video"),
-      doLoop: true
-    });
-    BV.init();
-    BV.show('/assets/videos/22375808.mp4', { ambient: true });
-
     var resizeHeader = function() {
       $('.header-home').css('height', $(window).height());
       $('.header-home .big-video-wrap').css('height', $(window).height()-80);
