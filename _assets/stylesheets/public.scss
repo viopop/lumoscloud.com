@@ -12,7 +12,7 @@ a {
   }
 }
 blockquote {
-  border-left: 0; border-bottom: 1px solid #eee;
+  border-left: 0;
   max-width: 800px; margin: 0 auto 40px; padding-bottom: 20px;
   color: $dark-gray; line-height: 1.5em; text-align: center;
   font: { size: 1.3em; style: italic; }
@@ -33,15 +33,19 @@ nav {
   a { text-transform: uppercase; }
 }
 header.page {
-  background-color: $dark-gray; margin-bottom: 40px;
+  background-color: $off-white; margin-bottom: 40px;
   .container { padding-top: 10px; padding-bottom: 10px; }
   nav { margin-top: 20px; }
   a {
-    color: white; border-bottom: 0; text-decoration: none;
-    &:hover { color: darken(white, 10%); border-bottom: 1px dotted darken(white, 10%); border-bottom: 0; text-decoration: none; }
+    color: $dark-gray; border-bottom: 0; text-decoration: none;
+    &.is-current-page {
+      color: $link-color;
+      &:hover { color: lighten($link-color, 10%); }
+    }
+    &:hover { color: lighten($dark-gray, 10%); border-bottom: 1px dotted darken(white, 10%); border-bottom: 0; text-decoration: none; }
   }
   .header-fixed {
-    position: fixed; z-index: 10000; top: 0; left: 0; width: 100%; background-color: $dark-gray; opacity: 0; visibility: hidden;
+    position: fixed; z-index: 10000; top: 0; left: 0; width: 100%; background-color: $off-white; opacity: 0; visibility: hidden;
     @include transition(opacity 0.3s linear);
     &.affix { opacity: 1; visibility: visible; }
   }

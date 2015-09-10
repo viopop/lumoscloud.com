@@ -31,7 +31,9 @@
     var resizeHeader = function() {
       $('.header-home').css('height', $(window).height());
       $('.header-home .big-video-wrap').css('height', $(window).height()-80);
-      $('.header-home h1').css('margin-top', Math.min($(window).height()/3, 200));
+      var target = Math.min($(window).height()/3*2, $(window).height()-250);
+      var topDistance = Math.max(target, 200);
+      $('.header-home h1').css('margin-top', topDistance);
     };
     resizeHeader();
     $(window).resize(resizeHeader);
