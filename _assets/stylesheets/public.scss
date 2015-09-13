@@ -22,6 +22,10 @@ blockquote {
   background: transparent; border: 1px solid $dark-gray; color: $dark-gray;
   &:hover { color: $dark-gray; background: transparentize($dark-gray, 0.9); border: 1px solid $dark-gray; }
 }
+.btn-action-dark {
+  background: transparent; border: 1px solid #333; color: #333;
+  &:hover { color: #333; background: transparentize(#333, 0.9); border: 1px solid #333; }
+}
 .btn-action-light {
   background: transparent; border: 1px solid #fff; color: white;
   &:hover { color: white; background: rgba(255,255,255,0.1); border: 1px solid white; }
@@ -46,13 +50,16 @@ header.page {
   }
   .header-fixed {
     position: fixed; z-index: 10000; top: 0; left: 0; width: 100%; background-color: $off-white; opacity: 0; visibility: hidden;
-    @include transition(opacity 0.3s linear);
+    @include transition(opacity 0.3s linear); @include box-shadow(0 2px 4px rgba(0,0,0,0.2));
     &.affix { opacity: 1; visibility: visible; }
   }
 }
 .content {
   .subpage {
-    &.background-image { background-size: cover; background-position: 50% 50%;  padding-top: 30px; margin: 30px auto; }
+    &.background-image {
+      background-size: cover; background-position: 50% 50%;  padding: 30px 0; margin: 30px auto;
+      h1, h2, h3, h4, h5, h6 { text-align: left; }
+    }
     &.banner-primary {
       background-color: $color1; padding-top: 30px; margin: 30px auto;
       h1, h2, h3, h4, h5, h6 { text-align: left; }
@@ -75,9 +82,7 @@ header.page {
   }
 }
 footer.page {
-  background-color: $footer-color; color: white;
-  a {
-    color: white;
-    &:hover { color: darken(white, 10%); }
-  }
+  background-color: $color1; color: white;
+  h4 { color: white; text-align: left; }
+  a { color: white; }
 }
