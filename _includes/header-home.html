@@ -17,9 +17,9 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12">
-        <h1 class="fade-in fade-in-slow">{{meta.slogan1 | markdown}}</h1>
-        <h1 class="fade-in fade-in-slow">{{meta.slogan2 | markdown}}</h1>
+      <div class="col-xs-12 slogans">
+        <h1 class="fade-in fade-in-slow">{{meta.slogan1}}</h1>
+        <h2 class="fade-in fade-in-slow">{{meta.slogan2}}</h2>
       </div>
     </div>
   </div>
@@ -32,15 +32,16 @@
     var resizeHeader = function() {
       $('.header-home').css('height', $(window).height());
       $('.header-home .big-video-wrap').css('height', $(window).height()-80);
-      var target = Math.min($(window).height()/3*2, $(window).height()-250);
-      var topDistance = Math.max(target, 200);
-      $('.header-home h1').css('margin-top', topDistance);
+
+      var target = $('.header-home .big-video-wrap').innerHeight()-$('.header-home .slogans').innerHeight()-120;
+      var topDistance = Math.max(target, 80);
+      $('.header-home .slogans').css('margin-top', topDistance);
     };
     resizeHeader();
     $(window).resize(resizeHeader);
 
     setTimeout(function() {
       $('.fade-in').addClass("fade-in-now");
-    }, 2000);
+    }, 1000);
   });
 </script>

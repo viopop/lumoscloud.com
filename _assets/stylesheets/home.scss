@@ -21,7 +21,8 @@ header.page {
       }
       &:hover { color: lighten($dark-gray, 10%); border-bottom: 1px dotted darken(white, 10%); border-bottom: 0; }
     }
-    h1 { font-size: 44px; margin-top: 110px; color: white; }
+    h1 { font-size: 44px; margin-top: 0; margin-bottom: 0; color: white; }
+    h2 { font-size: 36px; margin-top: 0; color: white; }
     .jump-down {
       color: white; width: 48px; height: 48px; position: absolute; left: calc(50% - 24px); bottom: 20px;
       .fa { font-size: 48px; opacity: 0.25; }
