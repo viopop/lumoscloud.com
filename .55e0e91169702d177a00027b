@@ -1,0 +1,189 @@
+---
+time: 1450567706
+inventory:
+  "/home/index.html":
+    md5: 2999e8e382cc9eb5f69ae90244d94715
+    time: 1450567686
+  "/index.html":
+    md5: 2999e8e382cc9eb5f69ae90244d94715
+    time: 1450567686
+  "/online-training/index.html":
+    md5: 6b7e9570bee713722d237c5f4d7804a0
+    time: 1450567686
+  "/instructor-led-training/index.html":
+    md5: 34e0fc084d6c5ef3c2c3b66198c4502a
+    time: 1450567686
+  "/consulting-services/index.html":
+    md5: 7ecc6542766de1da37dc764591e02f38
+    time: 1450567686
+  "/courses/index.html":
+    md5: 786b41afaa00ffd5417ba6b5688039b4
+    time: 1450567686
+  "/about/index.html":
+    md5: d7f36539ce9b5c812415c1506a083cfe
+    time: 1450567686
+  "/thanks/index.html":
+    md5: 65c4fa499b86ce3374d3bda9a5401c08
+    time: 1450567686
+  "/section-styles/index.html":
+    md5: 6f1a8411fc287048444127450f283871
+    time: 1450567687
+  "/privacy-policy/index.html":
+    md5: 4778522ec857ecc2d975238d04d88e0d
+    time: 1450567687
+  "/terms-and-conditions/index.html":
+    md5: 3659b6e7c71c0b586efe7093a9f0af04
+    time: 1450567687
+  "/home/services/index.html":
+    md5: 2731952caca537041aa35fcafd1e86f1
+    time: 1450567687
+  "/home/who-we-serve/index.html":
+    md5: 313ec275c74bcece70c97a0c57462d37
+    time: 1450567687
+  "/home/call-to-action/index.html":
+    md5: b5b5b11485d6e0b6bee6b5a9f8f7b26d
+    time: 1450567687
+  "/home/services/consulting-services/index.html":
+    md5: fbbd460eb058926974893506961bca05
+    time: 1450567687
+  "/home/services/online-training/index.html":
+    md5: cc6c0e5135b24db7d67e4de362ad2447
+    time: 1450567687
+  "/home/services/instructor-lead-training/index.html":
+    md5: 404b1ef2182e4aa4f5adee25873d8a4d
+    time: 1450567687
+  "/about/our-customers/index.html":
+    md5: feb3f692ae68a8e91bbf9a601ae79461
+    time: 1450567687
+  "/about/contact/index.html":
+    md5: 7444df75edafc5a6a3ecf4b70220a34d
+    time: 1450567687
+  "/section-styles/section-style-1/index.html":
+    md5: a9a3356b2e52800118057828ceec4fa4
+    time: 1450567687
+  "/section-styles/section-style-2/index.html":
+    md5: d0467c50f40d30969a0f76540650d908
+    time: 1450567687
+  "/section-styles/section-style-3/index.html":
+    md5: b6ed87f3dea9b21502c43b3c74351f83
+    time: 1450567687
+  "/courses/cisco-aci-fundamentals-for-network-engineers/index.html":
+    md5: 0789ef26cc0c568956b16130f3b2e8cd
+    time: 1450567687
+  "/CNAME":
+    md5: b59e8889a0cee55a8a8008c0b3eb83c9
+    time: 1450567687
+  "/sitemap.xml":
+    md5: aad20bc91f8f7fe3dda30b8d0126789c
+    time: 1450567687
+  "/feed.xml":
+    md5: cbeed65b4502ff111358e9f690a144a4
+    time: 1450567687
+  "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
+    md5: 82dbfde6a5bad25be3f530e6102de9e6
+    time: 1450567687
+  "/assets/6339606.mp4":
+    md5: 488a81675d798c6dc6ec9a0271bee91d
+    time: 1450567687
+  "/assets/Lumos_web.png":
+    md5: 4a24ecd58df91e0c059c1693eb7dc0aa
+    time: 1450567687
+  "/assets/55e20ccd69702d177a0003a7.jpg":
+    md5: 13c4147484a87d12c2e8d4dc9717471e
+    time: 1450567687
+  "/assets/who-we-serve-bg.jpg":
+    md5: f7d53555562dcbaacf3137f10a08177d
+    time: 1450567688
+  "/assets/fonts/fontawesome-webfont.eot":
+    md5: 32400f4e08932a94d8bfd2422702c446
+    time: 1450567688
+  "/assets/fonts/fontawesome-webfont.svg":
+    md5: f775f9cca88e21d45bebe185b27c0e5b
+    time: 1450567688
+  "/assets/fonts/fontawesome-webfont.ttf":
+    md5: a3de2170e4e9df77161ea5d3f31b2668
+    time: 1450567688
+  "/assets/fonts/fontawesome-webfont.woff":
+    md5: a35720c2fed2c7f043bc7e4ffb45e073
+    time: 1450567688
+  "/assets/fonts/fontawesome-webfont.woff2":
+    md5: db812d8a70a4e88e888744c1c9a27e89
+    time: 1450567688
+  "/assets/fonts/FontAwesome.otf":
+    md5: 87d8ca3ddc57e7d2da6226e480f90457
+    time: 1450567688
+  "/assets/fonts/lumos.eot":
+    md5: 22d0936b95ad9f71938153bcb3624128
+    time: 1450567688
+  "/assets/fonts/lumos.svg":
+    md5: 8c0778e78e35d7543118fa34fe8c9e5f
+    time: 1450567689
+  "/assets/fonts/lumos.ttf":
+    md5: 3a2ad20dd526878b8e864e39ecdc7760
+    time: 1450567689
+  "/assets/fonts/lumos.woff":
+    md5: 4858ad6977011f59a37046f441a53510
+    time: 1450567689
+  "/assets/images/bigvideo.png":
+    md5: e1048c9b28f9e3b294d5b58f8101aec0
+    time: 1450567689
+  "/assets/images/favicon128.png":
+    md5: 5cbbec767beec27656db1570d39800aa
+    time: 1450567689
+  "/assets/images/favicon16.png":
+    md5: 5c7058b5b53966c0246cf26de91ad6b8
+    time: 1450567689
+  "/assets/images/favicon256.png":
+    md5: 8be6441c13dd3be67141e9bb071886d5
+    time: 1450567690
+  "/assets/images/favicon32.png":
+    md5: ef7119dc30c1a43698cf4e8c3e567f9e
+    time: 1450567690
+  "/assets/images/favicon48.png":
+    md5: 39d39379a45208f885832912f732ec4b
+    time: 1450567690
+  "/assets/images/favicon64.png":
+    md5: e47b7494d37796f384e61aa6fb8592c5
+    time: 1450567690
+  "/assets/images/favicons/favicons":
+    md5: d41d8cd98f00b204e9800998ecf8427e
+    time: 1450567690
+  "/assets/images/header-home.jpg":
+    md5: 9469eec0907ef27d0e4f6de18941f358
+    time: 1450567690
+  "/assets/images/logo-dark.png":
+    md5: f1bb9be4b03f35caec32aa3dff648ad6
+    time: 1450567690
+  "/assets/images/logo-dark@2x.png":
+    md5: a438c82d453c7b4dde09ea705c6e0d14
+    time: 1450567690
+  "/assets/images/logo-light.png":
+    md5: dc0903dcdbceda470c2eeed2f214ab21
+    time: 1450567690
+  "/assets/images/logo-light@2x.png":
+    md5: edcb3e67c2eef4c1b89d36259c0fa285
+    time: 1450567690
+  "/assets/images/logo.png":
+    md5: 83d4358ed75a7676b6f984929e8bc944
+    time: 1450567690
+  "/assets/javascripts/bigvideo.js":
+    md5: 613494b7fd93c3c6f211f33df36541c6
+    time: 1450567690
+  "/assets/javascripts/public.js":
+    md5: cbee2b6b1b5fb3eecbb80f78fc8337f0
+    time: 1450567691
+  "/assets/stylesheets/home.css":
+    md5: b43933841b1e5ef347f1852d7d0b79cf
+    time: 1450567691
+  "/assets/stylesheets/sticky-footer-ie.css":
+    md5: fde5643ffbdf7d7d9158b62f905c9005
+    time: 1450567691
+  "/assets/stylesheets/sticky-footer.css":
+    md5: 724abad4ae333e0d2a7c9951ea4bcd8c
+    time: 1450567691
+  "/assets/videos/home-bg-video.mp4":
+    md5: bc4b8cf78172e88019c454c2f564804c
+    time: 1450567691
+  "/assets/stylesheets/public.css":
+    md5: 174bbae283008b49089410a7c8e5e893
+    time: 1450567691
