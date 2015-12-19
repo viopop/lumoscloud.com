@@ -133,7 +133,7 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 slogans">
+      <div class="col-xs-12 slogans slogans-control">
         <h1 class="fade-in fade-in-slow">Let's be brilliant. Together.</h1>
         <h2 class="fade-in fade-in-slow">Illuminating the evolution of cloud architecture.</h2>
       </div>
@@ -148,13 +148,20 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
     var resizeHeader = function() {
       $('.header-home').css('height', $(window).height());
       $('.header-home .big-video-wrap').css('height', $(window).height()-80);
-
-      var target = $('.header-home .big-video-wrap').innerHeight()-$('.header-home .slogans').innerHeight()-120;
-      var topDistance = Math.max(target, 80);
-      $('.header-home .slogans').css('margin-top', topDistance);
     };
     resizeHeader();
     $(window).resize(resizeHeader);
+
+    var placeSlogans = function() {
+      var target = $('.header-home .big-video-wrap').innerHeight()-$('.header-home .slogans-control').innerHeight()-120;
+      var topDistance = Math.max(target, 80);
+      $('.header-home .slogans-control').css('margin-top', topDistance);
+      var target = ($('.header-home .big-video-wrap').innerHeight()/2)-$('.header-home .slogans-variant').innerHeight()-120;
+      var topDistance = Math.max(target, 80);
+      $('.header-home .slogans-variant').css('margin-top', topDistance);
+    };
+    placeSlogans();
+    $(window).resize(placeSlogans);
 
     setTimeout(function() {
       $('.fade-in').addClass("fade-in-now");
