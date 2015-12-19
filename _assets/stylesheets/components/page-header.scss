@@ -1,7 +1,7 @@
 header.page {
   background-color: $off-white; margin-bottom: 0;
   .container { padding-top: 10px; padding-bottom: 10px; }
-  nav { margin-top: 25px; }
+  nav { margin-top: 25px; font-size: 13px; }
   a {
     color: $dark-gray; border-bottom: 0; text-decoration: none;
     &.is-current-page {

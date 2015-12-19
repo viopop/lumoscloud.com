@@ -12,6 +12,8 @@ $link-hover-color: lighten($color1, 10%);
 $font-sans-serif: $body-font;
 $headings-font-family: $headline-font;
 $headings-color: $color1;
+$font-size-base: 16px;
+$blockquote-font-size: 16px;
 @import "bootstrap";
 @import "bootstrap/theme";
 
