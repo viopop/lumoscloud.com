@@ -1,0 +1,6 @@
+.course-list {
+  > .course {
+    font-size: 2rem;
+    > i { font-size: 4rem; vertical-align: middle; color: $color1; }
+  }
+}
