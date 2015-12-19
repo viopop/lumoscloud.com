@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 slogans">
+      <div class="col-xs-12 slogans slogans-control">
         <h1 class="fade-in fade-in-slow">{{meta.slogan1}}</h1>
         <h2 class="fade-in fade-in-slow">{{meta.slogan2}}</h2>
       </div>
@@ -32,13 +32,20 @@
     var resizeHeader = function() {
       $('.header-home').css('height', $(window).height());
       $('.header-home .big-video-wrap').css('height', $(window).height()-80);
-
-      var target = $('.header-home .big-video-wrap').innerHeight()-$('.header-home .slogans').innerHeight()-120;
-      var topDistance = Math.max(target, 80);
-      $('.header-home .slogans').css('margin-top', topDistance);
     };
     resizeHeader();
     $(window).resize(resizeHeader);
+
+    var placeSlogans = function() {
+      var target = $('.header-home .big-video-wrap').innerHeight()-$('.header-home .slogans-control').innerHeight()-120;
+      var topDistance = Math.max(target, 80);
+      $('.header-home .slogans-control').css('margin-top', topDistance);
+      var target = ($('.header-home .big-video-wrap').innerHeight()/2)-$('.header-home .slogans-variant').innerHeight()-120;
+      var topDistance = Math.max(target, 80);
+      $('.header-home .slogans-variant').css('margin-top', topDistance);
+    };
+    placeSlogans();
+    $(window).resize(placeSlogans);
 
     setTimeout(function() {
       $('.fade-in').addClass("fade-in-now");
