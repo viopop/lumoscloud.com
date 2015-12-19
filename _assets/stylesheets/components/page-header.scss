@@ -1,0 +1,18 @@
+header.page {
+  background-color: $off-white; margin-bottom: 40px;
+  .container { padding-top: 10px; padding-bottom: 10px; }
+  nav { margin-top: 25px; }
+  a {
+    color: $dark-gray; border-bottom: 0; text-decoration: none;
+    &.is-current-page {
+      color: $link-color;
+      &:hover { color: lighten($link-color, 10%); }
+    }
+    &:hover { color: lighten($dark-gray, 10%); border-bottom: 1px dotted darken(white, 10%); border-bottom: 0; text-decoration: none; }
+  }
+  .header-fixed {
+    position: fixed; z-index: 10000; top: 0; left: 0; width: 100%; background-color: $off-white; opacity: 0; visibility: hidden;
+    @include transition(opacity 0.3s linear); @include box-shadow(0 2px 4px rgba(0,0,0,0.2));
+    &.affix { opacity: 1; visibility: visible; }
+  }
+}

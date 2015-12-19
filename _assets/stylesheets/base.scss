@@ -1,5 +1,23 @@
-@import "media-queries";
-@import "functions";
-@import "colors";
-@import "fonts";
+// Shared
+@import "shared/colors";
+@import "shared/fonts";
+@import "shared/icons";
+@import "shared/media-queries";
+@import "shared/functions";
+
+// Bootstrap
+$brand-primary: $color1;
+$input-border-focus: $color1;
+$link-hover-color: lighten($color1, 10%);
+$font-sans-serif: $body-font;
+$headings-font-family: $headline-font;
+$headings-color: $color1;
+@import "bootstrap";
+@import "bootstrap/theme";
+
+// Font Awesome
+$fa-font-path: "/assets/fonts";
+@import "font-awesome";
+
+// Vendor
 @import "bigslide";

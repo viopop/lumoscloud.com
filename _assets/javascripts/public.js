@@ -1,3 +1,5 @@
+//= require jquery
+//= require bootstrap
 //= require vendor/retina.min
 //= require vendor/bigslide
 

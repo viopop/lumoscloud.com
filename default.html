@@ -1,41 +1,47 @@
 {% capture content %}
   <a id="content"></a>
   <div class="content">
-    <div class="container">
+    <div class="container section-style section-style-0">
       <div class="row">
-        <section class="col-xs-12">
+        <section class="col-xs-12 col-md-10 col-md-offset-1">
           {{body}}
         </section>
       </div>
     </div>
     {% if meta['display_subpages'] %}
       {% for page in pages %}
-        {% assign text_color = page.meta['text_color'] | fallback:'black' %}
-        {% if page.meta['background'] == 'image' %}
-          {% assign background_image = page.assets | where:"meta.background","true" | first %}
-          <div class="subpage background-image text-{{text_color}}" style="background-image: url('{{background_image.url}}')">
-        {% elsif page.meta['banner'] ==  'primary' %}
-          <div class="subpage banner-primary text-{{text_color}}">
+        {% assign section_style = page.meta['section_style'] | fallback:'0' %}
+        {% if section_style == '0' %}
+          <div class="subpage section-style section-style-0">
+        {% elsif section_style == '1' %}
+          <div class="subpage section-style section-style-1">
+        {% elsif section_style == '2' %}
+          {% assign text_color = page.meta['text_color'] | fallback:'black' %}
+          {% assign background_image = page.assets.first.url %}
+          <div class="subpage section-style section-style-2" style="color: {{text_color}}; background-image: url('{{ background_image }}');">
+        {% elsif section_style == '3' %}
+          <div class="subpage section-style section-style-3">
         {% else %}
-          <div class="subpage">
+          <div class="subpage section-style section-style-none">
         {% endif %}
           <div class="container">
             {% if page.body != "" %}
               <div class="row">
-                <section class="col-xs-12">
+                <section class="col-xs-12 col-md-10 col-md-offset-1">
                   {{page.body}}
                 </section>
               </div>
             {% endif %}
             {% if page.pages %}
-              <div class="row">
+              <div class="row columns-row">
                 {% for subpage in page.pages %}
                   <div class="text-{{subpage.meta['text_align'] | fallback:'center'}} {{subpage.meta['column_class'] | fallback: page.meta['subpage_column_class'] | fallback:'col-sm-4'}}">
                     {% if subpage.meta['icon'] %}
-                      <i class="subpage-icon fa fa-{{subpage.meta['icon']}}"></i>
+                      <div class="subpage-icon"><i class="icon-{{subpage.meta['icon']}}"></i></div>
                     {% endif %}
                     {{subpage.body}}
                   </div>
+                  <div class="clearfix visible-xs-block"><p>&nbsp;</p></div>
                 {% endfor %}
               </div>
             {% endif %}

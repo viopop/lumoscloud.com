@@ -1,0 +1,16 @@
+.section-style {
+  padding: 15px;
+  > .container > .columns-row { margin-top: 25px; }
+  &.section-style-1 {
+    background: #f5f5f5; font-size: 1.3em;
+    blockquote { color: #333; text-align: left; font-size: 1em; max-width: none; padding: 0; margin-bottom: 15px; }
+  }
+  &.section-style-2 {
+    background-size: cover; background-position: 50% 50%; color: #333; font-size: 1.3em;
+    h1, h2, h3, h4, h5, h6, p { color: #333; }
+    blockquote { color: #333; text-align: left; font-size: 1em; max-width: none; padding: 0; margin-bottom: 15px; }
+  }
+  &.section-style-3 {
+    border: 1px solid #eee; border-width: 1px 0;
+  }
+}

@@ -1,11 +1,14 @@
 @import "base";
 @import "bigvideo";
+@import "components/page-footer";
+@import "components/page-header";
+@import "components/section-styles";
 
-body { font-family: $body-font; font-size: 1.3em; line-height: 1.6em; }
-h1, h2, h3, h4, h5, h6 { color: $color1; font-family: $headline-font; text-align: center; }
+body { font-size: 1.3em; line-height: 1.6em; }
+h1, h2, h3, h4, h5, h6 { text-align: center; margin-bottom: 1.5rem; }
 a {
-  color: $link-color; border-bottom: 1px dotted rgba(220,220,220,0.5); text-decoration: none; cursor: pointer;
-  &:hover { color: lighten($link-color, 10%); border-bottom: 1px dotted lighten($link-color, 10%); text-decoration: none; }
+  border-bottom: 1px dotted rgba(220, 220, 220, 0.5); text-decoration: none; cursor: pointer;
+  &:hover { border-bottom: 1px dotted lighten($link-color, 10%); text-decoration: none; }
   &.no-underline {
     border-bottom: 0; text-decoration: none;
     &:hover { border-bottom: 0; text-decoration: none; }
@@ -13,14 +16,18 @@ a {
 }
 blockquote {
   border-left: 0;
-  max-width: 800px; margin: 0 auto 40px; padding-bottom: 20px;
-  color: $dark-gray; line-height: 1.5em; text-align: center;
+  max-width: 800px; margin: 0 auto;
+  color: #333; line-height: 1.5em; text-align: center;
   font: { size: 1.3em; style: italic; }
 }
 
 .btn-action {
   background: transparent; border: 1px solid $dark-gray; color: $dark-gray;
   &:hover { color: $dark-gray; background: transparentize($dark-gray, 0.9); border: 1px solid $dark-gray; }
+}
+.btn-action-primary {
+  background: transparent; border: 1px solid $color1; color: $color1;
+  &:hover { color: $color1; background: transparentize($color1, 0.9); border: 1px solid $color1; }
 }
 .btn-action-dark {
   background: transparent; border: 1px solid #333; color: #333;
@@ -36,28 +43,10 @@ blockquote {
 nav {
   a { text-transform: uppercase; }
 }
-header.page {
-  background-color: $off-white; margin-bottom: 40px;
-  .container { padding-top: 10px; padding-bottom: 10px; }
-  nav { margin-top: 25px; }
-  a {
-    color: $dark-gray; border-bottom: 0; text-decoration: none;
-    &.is-current-page {
-      color: $link-color;
-      &:hover { color: lighten($link-color, 10%); }
-    }
-    &:hover { color: lighten($dark-gray, 10%); border-bottom: 1px dotted darken(white, 10%); border-bottom: 0; text-decoration: none; }
-  }
-  .header-fixed {
-    position: fixed; z-index: 10000; top: 0; left: 0; width: 100%; background-color: $off-white; opacity: 0; visibility: hidden;
-    @include transition(opacity 0.3s linear); @include box-shadow(0 2px 4px rgba(0,0,0,0.2));
-    &.affix { opacity: 1; visibility: visible; }
-  }
-}
 .content {
   .subpage {
     &.background-image {
-      background-size: cover; background-position: 50% 50%;  padding: 30px 0; margin: 30px auto;
+      background-size: cover; background-position: 50% 50%; padding: 30px 0; margin: 30px auto;
       h1, h2, h3, h4, h5, h6 { text-align: left; }
     }
     &.banner-primary {
@@ -73,16 +62,12 @@ header.page {
       h1, h2, h3, h4, h5, h6 { color: white; }
     }
   }
-  section { padding-bottom: 15px; margin-bottom: 15px; }
-  .subpage-icon { margin: 0 auto 24px; width: 60px; height: 60px; position: relative; display: inline-block; font-size: 22px; color: white; line-height: 60px; @include border-radius(4px); background-color: $color1; text-align: center; }
-  .subpage-icon:after { content: ""; bottom: -8px; left: 50%; margin-left: -8px; width: 0; height: 0; position: absolute; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 8px solid $color1; text-align: center; }
+  // .subpage-icon { margin: 0 auto 24px; width: 60px; height: 60px; position: relative; display: inline-block; font-size: 22px; color: white; line-height: 60px; @include border-radius(4px); background-color: $color1; text-align: center; }
+  // .subpage-icon:after { content: ""; bottom: -8px; left: 50%; margin-left: -8px; width: 0; height: 0; position: absolute; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 8px solid $color1; text-align: center; }
+  .subpage-icon { margin: 0 auto; width: 160px; height: 160px; font-size: 80px; color: $color1; text-align: center; border: 4px solid $color1; padding: 25px; @include border-radius(160px); }
+  .subpage-icon i { position: relative; top: 10px; }
   .big-video-wrap {
     position: relative; z-index: 0;
     .big-video { width: 100%; height: 100%; }
   }
-}
-footer.page {
-  background-color: $color1; color: white;
-  h4 { color: white; text-align: left; }
-  a { color: white; }
 }

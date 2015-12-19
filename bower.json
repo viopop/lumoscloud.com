@@ -1,0 +1,26 @@
+{
+  "name": "lumoscloud.com",
+  "authors": [
+    "Brandon Arbini <b@arbini.com>"
+  ],
+  "description": "Lumos Cloud",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "lumoscloud.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "_assets/components/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "~3.3.6",
+    "font-awesome": "fontawesome#~4.5.0"
+  }
+}
