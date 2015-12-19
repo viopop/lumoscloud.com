@@ -37,7 +37,15 @@
                 {% for subpage in page.pages %}
                   <div class="text-{{subpage.meta['text_align'] | fallback:'center'}} {{subpage.meta['column_class'] | fallback: page.meta['subpage_column_class'] | fallback:'col-sm-4'}}">
                     {% if subpage.meta['icon'] %}
-                      <div class="subpage-icon"><i class="icon-{{subpage.meta['icon']}}"></i></div>
+                      <div class="subpage-icon">
+                        {% if subpage.meta['icon_link'] %}
+                          <a href="{{subpage.meta['icon_link']}}" class="no-underline">
+                            <i class="icon-{{subpage.meta['icon']}}"></i>
+                          </a>
+                        {% else %}
+                          <i class="icon-{{subpage.meta['icon']}}"></i>
+                        {% endif %}
+                      </div>
                     {% endif %}
                     {{subpage.body}}
                   </div>
