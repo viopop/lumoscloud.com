@@ -38,6 +38,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-color-success { color: $brand-success; }
+
+
+
+
 .icon-consulting:before {
   content: "\61";
 }
@@ -46,4 +51,7 @@
 }
 .icon-online-training:before {
   content: "\63";
+}
+.icon-check-circle:before {
+  content: "\64";
 }

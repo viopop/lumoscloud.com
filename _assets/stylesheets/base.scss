@@ -1,7 +1,6 @@
 // Shared
 @import "shared/colors";
 @import "shared/fonts";
-@import "shared/icons";
 @import "shared/media-queries";
 @import "shared/functions";
 
@@ -16,6 +15,9 @@ $font-size-base: 16px;
 $blockquote-font-size: 16px;
 @import "bootstrap";
 @import "bootstrap/theme";
+
+// More Shared
+@import "shared/icons";
 
 // Font Awesome
 $fa-font-path: "/assets/fonts";

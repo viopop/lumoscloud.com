@@ -1,6 +1,7 @@
 @import "base";
 @import "bigvideo";
 @import "components/course-list";
+@import "components/course-page";
 @import "components/page-footer";
 @import "components/page-header";
 @import "components/section-styles";
@@ -26,7 +27,7 @@ blockquote {
   &:hover { color: $dark-gray; background: transparentize($dark-gray, 0.9); border: 1px solid $dark-gray; }
 }
 .btn-action-primary {
-  background: transparent; border: 1px solid $color1; color: $color1;
+  background: transparentize(white, 0.9); border: 1px solid $color1; color: $color1;
   &:hover { color: $color1; background: transparentize($color1, 0.9); border: 1px solid $color1; }
 }
 .btn-action-dark {

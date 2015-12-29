@@ -1,0 +1,8 @@
+.course-page {
+  .table > thead > tr > th {
+    background: $color1; color: #fff; border-bottom-color: darken($color1, 5%); text-align: center; font-size: 1.3rem; text-transform: uppercase;
+    &.text-left { text-align: left; }
+    &.text-right { text-align: right; }
+  }
+  .break { background: $light-gray; color: $dark-gray; text-align: center; font-size: 1.3rem; text-transform: uppercase; }
+}
