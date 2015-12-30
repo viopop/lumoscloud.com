@@ -56,7 +56,7 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
     <div id="page" class="page big-slide-push clearfix">
       <header class="page clearfix">
         
-          <div class="header-home">
+          <div class="header-home home-video">
   <div class="big-video-wrap">
     <div class="big-video" data-href="/assets/videos/home-bg-video.mp4"></div>
   </div>
@@ -143,22 +143,114 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
     <i class="fa fa-chevron-circle-down" data-scroll-to="#content" data-scroll-offset="-100"></i>
   </a>
 </div>
+
+<div class="header-home home-photo" style="background-image: url('/assets/images/header-home.jpg')">
+  <div class="header-nav-bg"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <div class="logo">
+          
+  
+  <a href="/" class="no-underline">
+
+  <img src="/assets/images/logo-dark.png" alt="Lumos" width="180">
+
+
+
+
+        </div>
+        <a href="#big-slide-panel" class="big-slide-link no-underline visible-xs-block">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="col-sm-9 hidden-xs">
+        <nav class="text-right" role="navigation">
+  <ul class="list-unstyled list-inline">
+    
+      
+    
+      
+        <li>
+          <a href="/online-training">
+            
+              Online Training
+            
+          </a>
+        </li>
+      
+    
+      
+        <li>
+          <a href="/instructor-led-training">
+            
+              <span class="hidden-sm">Instructor Led Training</span>
+              <span class="visible-sm-block">ILT</span>
+            
+          </a>
+        </li>
+      
+    
+      
+        <li>
+          <a href="/consulting-services">
+            
+              <span class="hidden-sm">Consulting Services</span>
+              <span class="visible-sm-block">Consulting</span>
+            
+          </a>
+        </li>
+      
+    
+      
+        <li>
+          <a href="/about">
+            
+              About
+            
+          </a>
+        </li>
+      
+    
+    <li><a href="https://app.lumoscloud.com/login">LOG IN</a></li>
+  </ul>
+</nav>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 slogans slogans-control">
+        <h1>Let's be brilliant. Together.</h1>
+        <h2>Illuminating the evolution of cloud architecture.</h2>
+      </div>
+    </div>
+  </div>
+  <a class="jump-down no-underline fade-in fade-in-slow">
+    <i class="fa fa-chevron-circle-down" data-scroll-to="#content" data-scroll-offset="-100"></i>
+  </a>
+</div>
+
+<style media="screen">
+  .header-home.home-video { display: block; }
+  .header-home.home-photo { display: none; }
+</style>
+
 <script type="text/javascript">
   $(function() {
     var resizeHeader = function() {
-      $('.header-home').css('height', $(window).height());
-      $('.header-home .big-video-wrap').css('height', $(window).height()-80);
+      $('.header-home.home-video').css('height', $(window).height());
+      $('.header-home.home-video .big-video-wrap').css('height', $(window).height()-80);
     };
     resizeHeader();
     $(window).resize(resizeHeader);
 
     var placeSlogans = function() {
-      var target = $('.header-home .big-video-wrap').innerHeight()-$('.header-home .slogans-control').innerHeight()-120;
+      var target = $('.header-home.home-video .big-video-wrap').innerHeight()-$('.header-home.home-video .slogans-control').innerHeight()-120;
       var topDistance = Math.max(target, 80);
-      $('.header-home .slogans-control').css('margin-top', topDistance);
-      var target = ($('.header-home .big-video-wrap').innerHeight()/2)-$('.header-home .slogans-variant').innerHeight()-120;
+      $('.header-home.home-video .slogans-control').css('margin-top', topDistance);
+      var target = ($('.header-home.home-video .big-video-wrap').innerHeight()/2)-$('.header-home.home-video .slogans-variant').innerHeight()-120;
       var topDistance = Math.max(target, 80);
-      $('.header-home .slogans-variant').css('margin-top', topDistance);
+      $('.header-home.home-video .slogans-variant').css('margin-top', topDistance);
     };
     placeSlogans();
     $(window).resize(placeSlogans);
@@ -166,6 +258,10 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
     setTimeout(function() {
       $('.fade-in').addClass("fade-in-now");
     }, 500);
+  });
+
+  $(function() {
+    $('.header-home.home-photo').css('height', $(window).height()*0.9);
   });
 </script>
 
@@ -472,12 +568,15 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
 
 </div>
 
-    <script>
+    <style media="screen">
+  #intercom-container .intercom-launcher-hovercard { display: none !important; }
+</style>
+<script>
   window.intercomSettings = {
     app_id: "um4mgc7c"
   };
 </script>
-<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/um4mgc7c';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/um4mgc7c';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()</script>
 
   </body>
 </html>

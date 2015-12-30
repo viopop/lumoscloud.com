@@ -1,75 +1,78 @@
 ---
-time: 1450569311
+time: 1451461162
 inventory:
   "/home/index.html":
-    md5: e349ae50be097d34bf63ee19e87d46f1
-    time: 1450569310
+    md5: 6be869348d2aa4839470ca75c21aea05
+    time: 1451461150
   "/index.html":
-    md5: e349ae50be097d34bf63ee19e87d46f1
-    time: 1450569310
+    md5: 6be869348d2aa4839470ca75c21aea05
+    time: 1451461150
   "/online-training/index.html":
-    md5: 6b7e9570bee713722d237c5f4d7804a0
-    time: 1450567686
+    md5: a77150fe452405f4275ff4c63acc4141
+    time: 1451461150
   "/instructor-led-training/index.html":
-    md5: 34e0fc084d6c5ef3c2c3b66198c4502a
-    time: 1450567686
+    md5: 76f9625e8cfcb8b258d26f4b7b6571d6
+    time: 1451461150
   "/consulting-services/index.html":
-    md5: 7ecc6542766de1da37dc764591e02f38
-    time: 1450567686
+    md5: 465ebb93243421e41991f399ebed02bd
+    time: 1451461150
   "/courses/index.html":
-    md5: 786b41afaa00ffd5417ba6b5688039b4
-    time: 1450567686
+    md5: f47b04d4cb3b4fe051a11739bae0d71b
+    time: 1451461150
   "/about/index.html":
-    md5: d7f36539ce9b5c812415c1506a083cfe
-    time: 1450567686
+    md5: 97ea4368f3c5793a5a563b57fab59a67
+    time: 1451461150
   "/thanks/index.html":
-    md5: 65c4fa499b86ce3374d3bda9a5401c08
-    time: 1450567686
+    md5: 4b8599ae41ef2f921ac7ddc4e76089f8
+    time: 1451461150
   "/section-styles/index.html":
-    md5: 6f1a8411fc287048444127450f283871
-    time: 1450567687
+    md5: 5ec00817e07ff542e93680663aa2b9af
+    time: 1451461150
   "/privacy-policy/index.html":
-    md5: 4778522ec857ecc2d975238d04d88e0d
-    time: 1450567687
+    md5: cc5b7ba4609a6a7819a245038c1448e3
+    time: 1451461150
   "/terms-and-conditions/index.html":
-    md5: 3659b6e7c71c0b586efe7093a9f0af04
-    time: 1450567687
+    md5: df1ad05958a628040e037ea01f6be076
+    time: 1451461150
   "/home/services/index.html":
-    md5: 2731952caca537041aa35fcafd1e86f1
-    time: 1450567687
+    md5: 663e713d1288a16891c557ad62620235
+    time: 1451461150
   "/home/who-we-serve/index.html":
-    md5: 313ec275c74bcece70c97a0c57462d37
-    time: 1450567687
+    md5: c6016104d228bd3ae59cf6109d8a11ed
+    time: 1451461150
   "/home/call-to-action/index.html":
-    md5: b5b5b11485d6e0b6bee6b5a9f8f7b26d
-    time: 1450567687
+    md5: 7c5c2cb6cf823d716d901597d514e3a6
+    time: 1451461150
   "/home/services/consulting-services/index.html":
-    md5: fbbd460eb058926974893506961bca05
-    time: 1450567687
+    md5: fad5119c9476fc6d0bd094e55f27851e
+    time: 1451461150
   "/home/services/online-training/index.html":
-    md5: cc6c0e5135b24db7d67e4de362ad2447
-    time: 1450567687
+    md5: 81b46a5d35625e215e37bfcffc510908
+    time: 1451461150
   "/home/services/instructor-lead-training/index.html":
-    md5: 404b1ef2182e4aa4f5adee25873d8a4d
-    time: 1450567687
+    md5: 80586cd74c66d946982bb42ebebcdd1a
+    time: 1451461150
   "/about/our-customers/index.html":
-    md5: feb3f692ae68a8e91bbf9a601ae79461
-    time: 1450567687
+    md5: 245b3136198312eb14ce52e5498b449b
+    time: 1451461150
   "/about/contact/index.html":
-    md5: 7444df75edafc5a6a3ecf4b70220a34d
-    time: 1450567687
+    md5: 9fb7dee97befdfb714e36aff5de24f00
+    time: 1451461150
   "/section-styles/section-style-1/index.html":
-    md5: a9a3356b2e52800118057828ceec4fa4
-    time: 1450567687
+    md5: ba4dc2cdf79a16aabcc72db55b1f1c03
+    time: 1451461150
   "/section-styles/section-style-2/index.html":
-    md5: d0467c50f40d30969a0f76540650d908
-    time: 1450567687
+    md5: 6004b37b050593943dab4dea65c33286
+    time: 1451461150
   "/section-styles/section-style-3/index.html":
-    md5: b6ed87f3dea9b21502c43b3c74351f83
-    time: 1450567687
-  "/courses/cisco-aci-fundamentals-for-network-engineers/index.html":
-    md5: 0789ef26cc0c568956b16130f3b2e8cd
-    time: 1450567687
+    md5: 45eb6605e5c6ef1d6e20ab00f5b4065b
+    time: 1451461150
+  "/courses/sample-course/index.html":
+    md5: 387760f0485124205d2733cdcfcafc32
+    time: 1451461150
+  "/courses/cisco-aci-fundamentals-for-network-engineers-agenda/index.html":
+    md5: 433a2f5ad5911c96eec530b93a57e72a
+    time: 1451461150
   "/CNAME":
     md5: b59e8889a0cee55a8a8008c0b3eb83c9
     time: 1450567687
@@ -77,8 +80,8 @@ inventory:
     md5: aad20bc91f8f7fe3dda30b8d0126789c
     time: 1450567687
   "/feed.xml":
-    md5: 0be3b4456debf6470ccd79fcb1d55116
-    time: 1450569310
+    md5: f1e0e4b5dae75f53069168539e00e86a
+    time: 1451461150
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
@@ -112,18 +115,6 @@ inventory:
   "/assets/fonts/FontAwesome.otf":
     md5: 87d8ca3ddc57e7d2da6226e480f90457
     time: 1450567688
-  "/assets/fonts/lumos.eot":
-    md5: 22d0936b95ad9f71938153bcb3624128
-    time: 1450567688
-  "/assets/fonts/lumos.svg":
-    md5: 8c0778e78e35d7543118fa34fe8c9e5f
-    time: 1450567689
-  "/assets/fonts/lumos.ttf":
-    md5: 3a2ad20dd526878b8e864e39ecdc7760
-    time: 1450567689
-  "/assets/fonts/lumos.woff":
-    md5: 4858ad6977011f59a37046f441a53510
-    time: 1450567689
   "/assets/images/bigvideo.png":
     md5: e1048c9b28f9e3b294d5b58f8101aec0
     time: 1450567689
@@ -172,9 +163,6 @@ inventory:
   "/assets/javascripts/public.js":
     md5: cbee2b6b1b5fb3eecbb80f78fc8337f0
     time: 1450567691
-  "/assets/stylesheets/home.css":
-    md5: b43933841b1e5ef347f1852d7d0b79cf
-    time: 1450567691
   "/assets/stylesheets/sticky-footer-ie.css":
     md5: fde5643ffbdf7d7d9158b62f905c9005
     time: 1450567691
@@ -184,6 +172,27 @@ inventory:
   "/assets/videos/home-bg-video.mp4":
     md5: bc4b8cf78172e88019c454c2f564804c
     time: 1450567691
+  "/assets/illuminating-cloud-medium.jpg":
+    md5: 7a531175441277e6df872203ec88d12c
+    time: 1451461150
+  "/assets/fonts/lumos.eot":
+    md5: 252c419cba638658ad9705e5eedf41ac
+    time: 1451461151
+  "/assets/fonts/lumos.svg":
+    md5: 7d3f26d6d34cc9d6812e3f990da7867f
+    time: 1451461151
+  "/assets/fonts/lumos.ttf":
+    md5: ce69ee63b01373e02288f6119c1a4afe
+    time: 1451461151
+  "/assets/fonts/lumos.woff":
+    md5: 019bd8a029ecc1a1e3b62d7c6a9dd3fd
+    time: 1451461151
   "/assets/stylesheets/public.css":
-    md5: 174bbae283008b49089410a7c8e5e893
-    time: 1450567691
+    md5: 06f8f942bbc75f45e26dbd9c855977d2
+    time: 1451461151
+  "/assets/stylesheets/home.css":
+    md5: ac0ac109cdf832928039d62a417f3378
+    time: 1451461151
+  "/assets/Lumos-ACIDW-Logical-L2-Only-Tenant1.png":
+    md5: 29b4527cc40eaa44abb90323bfa5d67f
+    time: 1451461151
