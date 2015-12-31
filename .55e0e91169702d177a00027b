@@ -1,5 +1,5 @@
 ---
-time: 1451462030
+time: 1451520324
 inventory:
   "/home/index.html":
     md5: 6be869348d2aa4839470ca75c21aea05
@@ -8,11 +8,11 @@ inventory:
     md5: 6be869348d2aa4839470ca75c21aea05
     time: 1451461150
   "/online-training/index.html":
-    md5: 943dfb94b5ac4fc37c6b9ead6e26fa92
-    time: 1451462027
+    md5: 32ada8abe9b2e2d6a76fbe6be08cdd2c
+    time: 1451520322
   "/instructor-led-training/index.html":
-    md5: 1397c48f621f8a65fe72ed99efd01adb
-    time: 1451462027
+    md5: 13d47fd626de7e66ca6099b2880f27d2
+    time: 1451520322
   "/consulting-services/index.html":
     md5: 465ebb93243421e41991f399ebed02bd
     time: 1451461150
@@ -77,11 +77,11 @@ inventory:
     md5: b59e8889a0cee55a8a8008c0b3eb83c9
     time: 1450567687
   "/sitemap.xml":
-    md5: e0383558d5faec2f3a5fffcf919f43f1
-    time: 1451462028
+    md5: 464cec5f2c6c17ca984aff93c12858e7
+    time: 1451520322
   "/feed.xml":
-    md5: d8b63bd835ca9fa37eb2f94e1b145283
-    time: 1451462028
+    md5: e0d7c220e27e70083894036b8ef3e501
+    time: 1451520322
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
