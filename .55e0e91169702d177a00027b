@@ -1,18 +1,18 @@
 ---
-time: 1451520324
+time: 1451935067
 inventory:
   "/home/index.html":
-    md5: 6be869348d2aa4839470ca75c21aea05
-    time: 1451461150
+    md5: cc3bacee9d3cf49fb19b2e9bff183403
+    time: 1451935061
   "/index.html":
-    md5: 6be869348d2aa4839470ca75c21aea05
-    time: 1451461150
+    md5: cc3bacee9d3cf49fb19b2e9bff183403
+    time: 1451935061
   "/online-training/index.html":
-    md5: 32ada8abe9b2e2d6a76fbe6be08cdd2c
-    time: 1451520322
+    md5: 7a1bbf8221c4550a6bc32650f24d5900
+    time: 1451935061
   "/instructor-led-training/index.html":
-    md5: 13d47fd626de7e66ca6099b2880f27d2
-    time: 1451520322
+    md5: cf9633061c905f49cffe1061684c6946
+    time: 1451935061
   "/consulting-services/index.html":
     md5: 465ebb93243421e41991f399ebed02bd
     time: 1451461150
@@ -38,19 +38,19 @@ inventory:
     md5: 663e713d1288a16891c557ad62620235
     time: 1451461150
   "/home/who-we-serve/index.html":
-    md5: c6016104d228bd3ae59cf6109d8a11ed
-    time: 1451461150
+    md5: 846ca090d6f2b37738dd1bdd8135b292
+    time: 1451935061
   "/home/call-to-action/index.html":
-    md5: 7c5c2cb6cf823d716d901597d514e3a6
+    md5: 9f498508fc7b440aedbe99eea0aa3b1b
+    time: 1451935061
+  "/home/services/online-training/index.html":
+    md5: 476e7d05af98819b5548f98cd5fe6c35
+    time: 1451935061
+  "/home/services/instructor-lead-training/index.html":
+    md5: 80586cd74c66d946982bb42ebebcdd1a
     time: 1451461150
   "/home/services/consulting-services/index.html":
     md5: fad5119c9476fc6d0bd094e55f27851e
-    time: 1451461150
-  "/home/services/online-training/index.html":
-    md5: 81b46a5d35625e215e37bfcffc510908
-    time: 1451461150
-  "/home/services/instructor-lead-training/index.html":
-    md5: 80586cd74c66d946982bb42ebebcdd1a
     time: 1451461150
   "/about/our-customers/index.html":
     md5: 245b3136198312eb14ce52e5498b449b
@@ -71,17 +71,20 @@ inventory:
     md5: 387760f0485124205d2733cdcfcafc32
     time: 1451461150
   "/courses/cisco-aci-fundamentals-for-network-engineers-agenda/index.html":
-    md5: 433a2f5ad5911c96eec530b93a57e72a
-    time: 1451461150
+    md5: 7c26426225d54bbc82faf8caf219535f
+    time: 1451935062
+  "/courses/cisco/index.html":
+    md5: 6e8625e70d2abb38f903b8911e481a1d
+    time: 1451935062
   "/CNAME":
     md5: b59e8889a0cee55a8a8008c0b3eb83c9
     time: 1450567687
   "/sitemap.xml":
-    md5: 464cec5f2c6c17ca984aff93c12858e7
-    time: 1451520322
+    md5: 37adacd4cbbf5a748bc5d10a8c3fbeb9
+    time: 1451935062
   "/feed.xml":
-    md5: e0d7c220e27e70083894036b8ef3e501
-    time: 1451520322
+    md5: c51c7049f40398cb9e260e2c56d9a233
+    time: 1451935062
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
@@ -193,6 +196,9 @@ inventory:
   "/assets/stylesheets/home.css":
     md5: ac0ac109cdf832928039d62a417f3378
     time: 1451461151
-  "/assets/Lumos-ACIDW-Logical-L2-Only-Tenant1.png":
-    md5: 29b4527cc40eaa44abb90323bfa5d67f
-    time: 1451461151
+  "/assets/ACIDW-Topology-mini.png":
+    md5: 72f4bce89b994393d430ab867cb2c066
+    time: 1451935062
+  "/assets/ACIDW-Topology-large.png":
+    md5: d19ddac15b8eca339418a82bdcabbfe0
+    time: 1451935062
