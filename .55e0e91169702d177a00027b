@@ -1,5 +1,5 @@
 ---
-time: 1452722023
+time: 1452881893
 inventory:
   "/home/index.html":
     md5: 4758d1ba8e02cad76b73074d4231e7cd
@@ -8,14 +8,14 @@ inventory:
     md5: 4758d1ba8e02cad76b73074d4231e7cd
     time: 1452580100
   "/online-training/index.html":
-    md5: 0047c37d3be8bdf3c5b7b92477876351
-    time: 1452580100
+    md5: 5bc6e183c2d28428229eb50c868dc81f
+    time: 1452881887
   "/instructor-led-training/index.html":
-    md5: 3dc10e7b738c170a70dee42055180dbf
-    time: 1452580100
+    md5: 02f8deda569dbbd5a6531a4d75d8cb0b
+    time: 1452881887
   "/consulting-services/index.html":
-    md5: ebf5ca7eb09e69d64710620ff07daf70
-    time: 1452580100
+    md5: 8b5b3747dc158d13fec1ccce1cb11a4d
+    time: 1452881887
   "/courses/index.html":
     md5: 2be88604f4838881e4d44c7594ff5dcd
     time: 1452580100
@@ -71,32 +71,35 @@ inventory:
     md5: 20ccd14e3a7733987fac60dedf5ef20d
     time: 1452580100
   "/courses/cisco-aci-fundamentals-for-network-engineers-agenda/index.html":
-    md5: 2689d391d4ce0da880b78d207b3b0201
-    time: 1452722021
-  "/courses/cisco/index.html":
-    md5: b1d360ec5e7eba111b60a8e110519ec7
-    time: 1452580100
-  "/courses/designing-and-deploying-vxlan-with-evpn-on-cisco-nexus-9000/index.html":
-    md5: 851ca44258d2b8978453d3bd0ad7b4e9
-    time: 1452721985
+    md5: dc697328b8ed86dbb183867e491bf3ac
+    time: 1452881888
+  "/courses/cisco-aci-advanced-deployment-workshop-agenda/index.html":
+    md5: 2f5208b8d084ccb226df8fac6299848a
+    time: 1452881888
+  "/courses/designing-and-deploying-vxlan-with-evpn-on-cisco-nexus-9000-agenda/index.html":
+    md5: 79cb7e80b9617a94c28cf4c20a461e24
+    time: 1452881888
   "/courses/devops-and-programmability-for-cisco-aci-agenda/index.html":
-    md5: 610f24c781d07aad82f3c9a957c1a188
-    time: 1452721985
-  "/courses/devops-and-programmability-for-cisco-nexus-9000-agenda/index.html":
-    md5: 17bcbeacf7631ba888702f91f39140b7
-    time: 1452721985
+    md5: 1c7ab46884e49142f645a9f88099c9cc
+    time: 1452881888
+  "/courses/devops-and-programmability-for-cisco-nexus-9000-nxos-agenda/index.html":
+    md5: 11ebf44df615825e9c3ce0c5ea3b7f14
+    time: 1452881888
   "/courses/introduction-to-openstack-for-network-engineers-agenda/index.html":
     md5: 286272a06fd3fc24a1c09a0e4c5a3ca8
     time: 1452580101
+  "/courses/aci-fe-sample-only-page/index.html":
+    md5: b15078eb5595391156a443620c8521a7
+    time: 1452881888
   "/CNAME":
     md5: b59e8889a0cee55a8a8008c0b3eb83c9
     time: 1450567687
   "/sitemap.xml":
-    md5: 37adacd4cbbf5a748bc5d10a8c3fbeb9
-    time: 1451935062
+    md5: d2720d6876eb52a013c60ffffd83ef1a
+    time: 1452881888
   "/feed.xml":
-    md5: c94911543da95ba78bd3587c53cde5ce
-    time: 1452722022
+    md5: cb6ccd6e12b7aa13aafc6dc67915210f
+    time: 1452881888
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
