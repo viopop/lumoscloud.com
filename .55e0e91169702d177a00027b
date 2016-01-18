@@ -1,5 +1,5 @@
 ---
-time: 1453078539
+time: 1453095253
 inventory:
   "/home/index.html":
     md5: 4758d1ba8e02cad76b73074d4231e7cd
@@ -80,8 +80,8 @@ inventory:
     md5: 79cb7e80b9617a94c28cf4c20a461e24
     time: 1452881888
   "/courses/devops-and-programmability-for-cisco-aci-agenda/index.html":
-    md5: 1c7ab46884e49142f645a9f88099c9cc
-    time: 1452881888
+    md5: 6baffd65a6467fe2f17f1d16f23bf256
+    time: 1453095252
   "/courses/devops-and-programmability-for-cisco-nexus-9000-nxos-agenda/index.html":
     md5: 11ebf44df615825e9c3ce0c5ea3b7f14
     time: 1452881888
@@ -98,8 +98,8 @@ inventory:
     md5: d2720d6876eb52a013c60ffffd83ef1a
     time: 1452881888
   "/feed.xml":
-    md5: 90fe9d094e71b7b20b60b4748ff91624
-    time: 1453078538
+    md5: 943389a56c00faafbf799f2d5ea7c938
+    time: 1453095252
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
