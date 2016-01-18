@@ -1,5 +1,5 @@
 ---
-time: 1453097656
+time: 1453099406
 inventory:
   "/home/index.html":
     md5: 4758d1ba8e02cad76b73074d4231e7cd
@@ -74,20 +74,20 @@ inventory:
     md5: c569fc64f8d5cf76b604faa707e5e47e
     time: 1453097655
   "/courses/cisco-aci-advanced-deployment-workshop-agenda/index.html":
-    md5: eadfbea15ae5a43bbe47e8a6426e216d
-    time: 1453095651
+    md5: d47a9b9daefa3a1bd464c8dd6078c67b
+    time: 1453099403
   "/courses/designing-and-deploying-vxlan-with-evpn-on-cisco-nexus-9000-agenda/index.html":
-    md5: 98e587264320d348cb6be4f08f54a69c
-    time: 1453095724
+    md5: 0f175517af3d1268e2faa09607922bd2
+    time: 1453099403
   "/courses/devops-and-programmability-for-cisco-aci-agenda/index.html":
-    md5: 6baffd65a6467fe2f17f1d16f23bf256
-    time: 1453095252
+    md5: 693c6a25c0829c8cc8d573e20aaa3389
+    time: 1453099403
   "/courses/devops-and-programmability-for-cisco-nexus-9000-nxos-agenda/index.html":
-    md5: 825a25bfb362cdd1c31e36288c1dfe50
-    time: 1453095500
+    md5: 8eae3268a7b0b8323c781b881c31a470
+    time: 1453099403
   "/courses/introduction-to-openstack-for-network-engineers-agenda/index.html":
-    md5: 286272a06fd3fc24a1c09a0e4c5a3ca8
-    time: 1452580101
+    md5: b88e629881c5d9459ecc11a6afa6107a
+    time: 1453099403
   "/courses/aci-fe-sample-only-page/index.html":
     md5: b15078eb5595391156a443620c8521a7
     time: 1452881888
@@ -98,8 +98,8 @@ inventory:
     md5: d2720d6876eb52a013c60ffffd83ef1a
     time: 1452881888
   "/feed.xml":
-    md5: 4d1ac905cf7f75930c3a371f8c9e6de5
-    time: 1453097655
+    md5: 1e6bddfca2753fc19adbc333e8d6cf3f
+    time: 1453099403
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
