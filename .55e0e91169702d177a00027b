@@ -1,5 +1,5 @@
 ---
-time: 1452881893
+time: 1453078539
 inventory:
   "/home/index.html":
     md5: 4758d1ba8e02cad76b73074d4231e7cd
@@ -74,8 +74,8 @@ inventory:
     md5: dc697328b8ed86dbb183867e491bf3ac
     time: 1452881888
   "/courses/cisco-aci-advanced-deployment-workshop-agenda/index.html":
-    md5: 2f5208b8d084ccb226df8fac6299848a
-    time: 1452881888
+    md5: 8ffc31f648304ef53b471109b9db6ac3
+    time: 1453078537
   "/courses/designing-and-deploying-vxlan-with-evpn-on-cisco-nexus-9000-agenda/index.html":
     md5: 79cb7e80b9617a94c28cf4c20a461e24
     time: 1452881888
@@ -98,8 +98,8 @@ inventory:
     md5: d2720d6876eb52a013c60ffffd83ef1a
     time: 1452881888
   "/feed.xml":
-    md5: cb6ccd6e12b7aa13aafc6dc67915210f
-    time: 1452881888
+    md5: 90fe9d094e71b7b20b60b4748ff91624
+    time: 1453078538
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
@@ -223,3 +223,6 @@ inventory:
   "/assets/Blue-Cloud-Download-Big-Web.mp4":
     md5: 997a6a208d86410bc5ce5577390ecc8d
     time: 1452581185
+  "/assets/N9K-VXLAN-EVPN-Topology-small.png":
+    md5: 1e048aca2848367b34f450a672b5117d
+    time: 1453078538
