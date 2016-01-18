@@ -1,5 +1,5 @@
 ---
-time: 1453095653
+time: 1453095725
 inventory:
   "/home/index.html":
     md5: 4758d1ba8e02cad76b73074d4231e7cd
@@ -77,8 +77,8 @@ inventory:
     md5: eadfbea15ae5a43bbe47e8a6426e216d
     time: 1453095651
   "/courses/designing-and-deploying-vxlan-with-evpn-on-cisco-nexus-9000-agenda/index.html":
-    md5: e97a53fe31b0858b40fab37866ffd24c
-    time: 1453095651
+    md5: 98e587264320d348cb6be4f08f54a69c
+    time: 1453095724
   "/courses/devops-and-programmability-for-cisco-aci-agenda/index.html":
     md5: 6baffd65a6467fe2f17f1d16f23bf256
     time: 1453095252
@@ -98,8 +98,8 @@ inventory:
     md5: d2720d6876eb52a013c60ffffd83ef1a
     time: 1452881888
   "/feed.xml":
-    md5: b54a8a7675bde72e01d66785f41dde33
-    time: 1453095651
+    md5: 3c1b5533c96d940c27da325bb3b76198
+    time: 1453095724
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
