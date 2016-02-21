@@ -1,5 +1,5 @@
 ---
-time: 1453099819
+time: 1456089700
 inventory:
   "/home/index.html":
     md5: 4758d1ba8e02cad76b73074d4231e7cd
@@ -20,8 +20,8 @@ inventory:
     md5: 2be88604f4838881e4d44c7594ff5dcd
     time: 1452580100
   "/about/index.html":
-    md5: f2d5343c698c604048d80451ccf57896
-    time: 1452580100
+    md5: 5c2b4895660dae221e783361debf7937
+    time: 1456089695
   "/thanks/index.html":
     md5: bf8e8ed82d91b10e69d56b8faa8cd09f
     time: 1452580100
@@ -71,20 +71,20 @@ inventory:
     md5: 20ccd14e3a7733987fac60dedf5ef20d
     time: 1452580100
   "/courses/cisco-aci-fundamentals-for-network-engineers-agenda/index.html":
-    md5: c569fc64f8d5cf76b604faa707e5e47e
-    time: 1453097655
+    md5: 70be27df9c361ea1229098dd5be73f0a
+    time: 1456089696
   "/courses/cisco-aci-advanced-deployment-workshop-agenda/index.html":
-    md5: d47a9b9daefa3a1bd464c8dd6078c67b
-    time: 1453099403
+    md5: 72c30819138edbd839af3e91a9c1567a
+    time: 1456089696
   "/courses/designing-and-deploying-vxlan-with-evpn-on-cisco-nexus-9000-agenda/index.html":
-    md5: 0f175517af3d1268e2faa09607922bd2
-    time: 1453099403
+    md5: e9abec2fdf9140679a50a549e43ee94d
+    time: 1456089696
   "/courses/devops-and-programmability-for-cisco-aci-agenda/index.html":
-    md5: 0eb16d3a7845b1ea1a48f91d26591cea
-    time: 1453099818
+    md5: f964b90db64c3cb8b49c6dbc8b38a19c
+    time: 1456089696
   "/courses/devops-and-programmability-for-cisco-nexus-9000-nxos-agenda/index.html":
-    md5: 627808e0ee9cccd7b9444aebb29482b9
-    time: 1453099818
+    md5: cb9dab7e8f834b3fed7ac720dad35929
+    time: 1456089696
   "/courses/introduction-to-openstack-for-network-engineers-agenda/index.html":
     md5: b88e629881c5d9459ecc11a6afa6107a
     time: 1453099403
@@ -95,11 +95,11 @@ inventory:
     md5: b59e8889a0cee55a8a8008c0b3eb83c9
     time: 1450567687
   "/sitemap.xml":
-    md5: d2720d6876eb52a013c60ffffd83ef1a
-    time: 1452881888
+    md5: 7103f9b7f55af8b8aa0a79d042e4af7c
+    time: 1456089696
   "/feed.xml":
-    md5: 69c291783e5e35069dff5629f7b67f03
-    time: 1453099818
+    md5: 9f0c040066ae971fc5dbe9718e20c2ea
+    time: 1456089696
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
