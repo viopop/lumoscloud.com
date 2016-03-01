@@ -1,12 +1,12 @@
 ---
-time: 1456507124
+time: 1456843780
 inventory:
   "/home/index.html":
-    md5: 4758d1ba8e02cad76b73074d4231e7cd
-    time: 1452580100
+    md5: f5c2631c121d28649d5f4f835b8aef5b
+    time: 1456843777
   "/index.html":
-    md5: 4758d1ba8e02cad76b73074d4231e7cd
-    time: 1452580100
+    md5: f5c2631c121d28649d5f4f835b8aef5b
+    time: 1456843777
   "/online-training/index.html":
     md5: 6d08f834ef4926660edbff3cffabe626
     time: 1456507122
@@ -98,8 +98,8 @@ inventory:
     md5: 91c81fa02dbcbfb1319b6fff7182bd25
     time: 1456507123
   "/feed.xml":
-    md5: bca7e10afe450f9a89b6be4e2808ed9b
-    time: 1456507123
+    md5: efbe5f0ec2f19e83b9f4faf7407e296f
+    time: 1456843778
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
@@ -154,9 +154,6 @@ inventory:
   "/assets/images/favicon64.png":
     md5: e47b7494d37796f384e61aa6fb8592c5
     time: 1450567690
-  "/assets/images/favicons/favicons":
-    md5: d41d8cd98f00b204e9800998ecf8427e
-    time: 1450567690
   "/assets/images/header-home.jpg":
     md5: 9469eec0907ef27d0e4f6de18941f358
     time: 1450567690
@@ -178,9 +175,6 @@ inventory:
   "/assets/javascripts/bigvideo.js":
     md5: 613494b7fd93c3c6f211f33df36541c6
     time: 1450567690
-  "/assets/javascripts/public.js":
-    md5: cbee2b6b1b5fb3eecbb80f78fc8337f0
-    time: 1450567691
   "/assets/stylesheets/sticky-footer-ie.css":
     md5: fde5643ffbdf7d7d9158b62f905c9005
     time: 1450567691
@@ -226,3 +220,9 @@ inventory:
   "/assets/N9K-VXLAN-EVPN-Topology-small.png":
     md5: 1e048aca2848367b34f450a672b5117d
     time: 1453078538
+  "/assets/javascripts/public.js":
+    md5: 1474f1907940e2e2faf914bebecb1295
+    time: 1456843778
+  "/assets/videos/home-bg-video-blue.mp4":
+    md5: 997a6a208d86410bc5ce5577390ecc8d
+    time: 1456843779
