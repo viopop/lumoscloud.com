@@ -1,5 +1,5 @@
 ---
-time: 1456843780
+time: 1456884186
 inventory:
   "/home/index.html":
     md5: f5c2631c121d28649d5f4f835b8aef5b
@@ -71,8 +71,8 @@ inventory:
     md5: 20ccd14e3a7733987fac60dedf5ef20d
     time: 1452580100
   "/courses/cisco-aci-fundamentals-for-network-engineers-agenda/index.html":
-    md5: 70be27df9c361ea1229098dd5be73f0a
-    time: 1456089696
+    md5: 06a36426784f0e580aa23dcf311a3510
+    time: 1456884185
   "/courses/cisco-aci-advanced-deployment-workshop-agenda/index.html":
     md5: f2ccf48f5d1b674568c36e6c776837da
     time: 1456344792
@@ -98,8 +98,8 @@ inventory:
     md5: 91c81fa02dbcbfb1319b6fff7182bd25
     time: 1456507123
   "/feed.xml":
-    md5: efbe5f0ec2f19e83b9f4faf7407e296f
-    time: 1456843778
+    md5: 2fd5e6a46278a18e5c45b61d00527c31
+    time: 1456884185
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
