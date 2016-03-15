@@ -1,5 +1,5 @@
 ---
-time: 1458020463
+time: 1458020576
 inventory:
   "/home/index.html":
     md5: f5c2631c121d28649d5f4f835b8aef5b
@@ -83,8 +83,8 @@ inventory:
     md5: 5cdaa0731873f4218c9c0cd78dff1af5
     time: 1458020461
   "/courses/devops-and-programmability-for-cisco-nexus-9000-nxos-agenda/index.html":
-    md5: e3068e9b9bd1989fa263340cc28c071a
-    time: 1457051379
+    md5: 054bf39bd5297150fe13f770a82493cb
+    time: 1458020575
   "/courses/introduction-to-openstack-for-network-engineers-agenda/index.html":
     md5: d449a473c9e44de19cc0acf38e8c6d65
     time: 1457051380
@@ -98,8 +98,8 @@ inventory:
     md5: 91c81fa02dbcbfb1319b6fff7182bd25
     time: 1456507123
   "/feed.xml":
-    md5: c05ff529fef5e564e533a91892a225da
-    time: 1458020462
+    md5: cb05058b26a2f77f88dc92be1b153286
+    time: 1458020575
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
