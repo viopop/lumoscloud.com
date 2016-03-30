@@ -1,12 +1,12 @@
 ---
-time: 1458020576
+time: 1459363761
 inventory:
   "/home/index.html":
-    md5: f5c2631c121d28649d5f4f835b8aef5b
-    time: 1456843777
+    md5: 4758d1ba8e02cad76b73074d4231e7cd
+    time: 1459363758
   "/index.html":
-    md5: f5c2631c121d28649d5f4f835b8aef5b
-    time: 1456843777
+    md5: 4758d1ba8e02cad76b73074d4231e7cd
+    time: 1459363758
   "/online-training/index.html":
     md5: 6d08f834ef4926660edbff3cffabe626
     time: 1456507122
@@ -98,8 +98,8 @@ inventory:
     md5: 91c81fa02dbcbfb1319b6fff7182bd25
     time: 1456507123
   "/feed.xml":
-    md5: cb05058b26a2f77f88dc92be1b153286
-    time: 1458020575
+    md5: 593338bc8b5486db2e1d901c49cefa32
+    time: 1459363760
   "/assets/Lumos_Earth_Hi_Res-e1438829835570.png":
     md5: 82dbfde6a5bad25be3f530e6102de9e6
     time: 1450567687
@@ -220,9 +220,12 @@ inventory:
   "/assets/N9K-VXLAN-EVPN-Topology-small.png":
     md5: 1e048aca2848367b34f450a672b5117d
     time: 1453078538
-  "/assets/javascripts/public.js":
-    md5: 1474f1907940e2e2faf914bebecb1295
-    time: 1456843778
   "/assets/videos/home-bg-video-blue.mp4":
     md5: 997a6a208d86410bc5ce5577390ecc8d
     time: 1456843779
+  "/assets/images/favicons/favicons":
+    md5: d41d8cd98f00b204e9800998ecf8427e
+    time: 1459363760
+  "/assets/javascripts/public.js":
+    md5: cbee2b6b1b5fb3eecbb80f78fc8337f0
+    time: 1459363760
