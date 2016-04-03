@@ -66,7 +66,7 @@ nav {
   // .subpage-icon { margin: 0 auto 24px; width: 60px; height: 60px; position: relative; display: inline-block; font-size: 22px; color: white; line-height: 60px; @include border-radius(4px); background-color: $color1; text-align: center; }
   // .subpage-icon:after { content: ""; bottom: -8px; left: 50%; margin-left: -8px; width: 0; height: 0; position: absolute; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 8px solid $color1; text-align: center; }
   .subpage-icon { margin: 0 auto; width: 160px; height: 160px; font-size: 80px; color: $color1; text-align: center; border: 4px solid $color1; padding: 25px; @include border-radius(160px); }
-  .subpage-icon i { position: relative; top: 10px; }
+  .subpage-icon i { position: relative; top: 5px; }
   .big-video-wrap {
     position: relative; z-index: 0;
     .big-video { width: 100%; height: 100%; }
